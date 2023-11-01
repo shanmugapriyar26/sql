@@ -36,5 +36,24 @@ clauses
 #top
 --> select top no col_name from table_name;
 
+#AGGREGATE FUNCTIONS
+--> max, min, sum, count, count(*) avg
+--> select max(col_name) from table_name;
+
+#like
+--> select col_name from table_name where col_name like 'wildcards';
+
+#wildcards
+--> % [] {} _ ^ -
+
+#in, between
+--> select col_name from table_name where col_name in() || not in();
+
+#joins
+--> select col.table1, col.table 2 from table1 join table2 on condition;
+
+#union and union all
+select col_name from table1 union select col_name from table2; union-->doesn't allow duplicates union all--> allow duplicates
+
 
 
