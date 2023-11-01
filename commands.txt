@@ -53,7 +53,15 @@ clauses
 --> select col.table1, col.table 2 from table1 join table2 on condition;
 
 #union and union all
-select col_name from table1 union select col_name from table2; union-->doesn't allow duplicates union all--> allow duplicates
+--> select col_name from table1 union select col_name from table2; union-->doesn't allow duplicates union all--> allow duplicates
 
+#group by
+--> select col_name from table where condition group by col_name order by col_name
+
+#having
+--> select col_name from table_name where condition group by col_name having condition order by col_name;
+
+#exists 
+--> existence of all any record in a subquery
 
 
