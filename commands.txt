@@ -1,0 +1,40 @@
+#selecting data from table 
+--> select * from table_name;
+--> select col_names from table;
+
+#distinct
+--> select distinct col_name from table;
+
+clauses
+#WHERE
+--> select * from table_name where condition;
+
+#AND
+--> select * from table_name where condition_1 and condition_2;
+
+#OR
+--> select * from table_name where condition_1 or condition_2;
+
+#orderby
+--> select * from table_name order by col_name asc||desc
+
+#not operator
+--> select col1, col2.. from table_name where not condition;
+
+#Insert
+--> insert into table_name(col_names) values(values)
+
+#null and not null
+--> select col_name from table where col is null || not null
+
+#update
+--> updata table_name set col = val where condition;
+
+#delete 
+--> delete from table_name where condition;
+
+#top
+--> select top no col_name from table_name;
+
+
+
